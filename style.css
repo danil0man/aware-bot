@@ -16,11 +16,11 @@ body {
 	padding: 1rem;
 	background-image: linear-gradient(
 		to right bottom,
-		rgba(255, 164, 128, 0.95) 0%,
+		rgba(255, 164, 128, 0.9) 0%,
 		rgba(255, 138, 109, 0.95) 21%,
 		rgba(255, 107, 88, 0.95) 52%,
 		rgba(255, 80, 67, 0.95) 78%,
-		rgba(255, 51, 48, 0.95) 100%
+		rgba(255, 51, 48, 0.9) 100%
 	);
 	height: 100vh;
 	display: flex;
