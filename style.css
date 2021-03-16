@@ -53,21 +53,28 @@ body {
 	text-align: center;
 }
 
+.button__container {
+	display: flex;
+	justify-content: space-between;
+}
+
 .btn {
 	font-family: 'Anton', sans-serif;
 	letter-spacing: 0.3rem;
-	margin-top: 2rem;
+	margin: 2rem;
 	display: inline-block;
 	border: none;
 	border-radius: 100px;
 	font-size: 2rem;
-	padding: 2rem 9rem;
 	text-transform: uppercase;
 	text-decoration: none;
 	background: linear-gradient(120deg, #7289da, #99aab5);
 	color: white;
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
 	transition: all 0.3s;
+	min-width: 20rem;
+	text-align: center;
+	padding: 1.5rem 4rem;
 }
 
 .btn:hover {
@@ -79,4 +86,10 @@ body {
 .btn:active {
 	transform: translateY(-2px);
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 500px) {
+	.button__container {
+		flex-direction: column;
+	}
 }
